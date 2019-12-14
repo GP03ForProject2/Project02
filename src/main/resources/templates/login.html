@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="LoginRegist/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="LoginRegist/assets/css/form-elements.css">
+    <link rel="stylesheet" href="LoginRegist/assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="LoginRegist/assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="LoginRegist/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="LoginRegist/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="LoginRegist/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="LoginRegist/assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+<!-- Content -->
+<div class="top-content">
+    <div class="inner-bg">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text">
+            </div>
+        </div>
+        <!-- MODAL -->
+        <div class="top-big-link" id="modal-register" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        <h3 class="modal-title" id="modal-register-label">开始登录</h3>
+                        <p>输入您的用户名和密码：</p>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <form role="form" action="/user/loginUser" method="post" class="registration-form">
+                            <div class="form-group">
+                                <span class="u_user"></span>
+                                <label class="sr-only" for="form-name">用户名</label>
+                                <input type="text" name="username" placeholder="用户名..." class="form-first-name form-control" id="form-name">
+                            </div>
+                            <div class="form-group">
+                                <span class="u_user"></span>
+                                <label class="sr-only" for="form-Password">密码</label>
+                                <input type="text" name="password" placeholder="密码..." class="form-Password form-control" id="form-Password">
+                            </div>
+                            <div class="errorText" id="error_box"><br></div>
+<!--                            <button onclick="fnLogin()"  class="btn">登录</button>-->
+                            <div class="#">
+                                <button onclick="fnLogin()"  class="btn">登录</button>
+                            </div>
+                            <br>
+                            <a href="/user/toRegister" style="color: #FFFFFF" >
+                            <div>
+                                <button  class="btn" type="submit" >注册</button>
+                            </div></a>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            var form = $("form.registration-form");
+            var formloading = false;
+            form.validate({
+                showErrors : function(errorMap, errorArr) {
+                    try {
+                        $(errorArr[0].element).focus();
+                        layer.msg(errorArr[0].message);
+                    } catch (err) {
+                    }
+                },
+                rules : {
+                    'username' : {
+                        required : true
+                    },
+                    'password' : {
+                        required : true,
+                    }
+                },
+                //验证未通过提示消息
+                messages : {
+                    'username' : {
+                        required : '请输入用户名'
+                    },
+                    'password' : {
+                        required : '请输入密码'
+                    },
+                },
+                submitHandler : function(forms) {
+                    if (formloading) return;
+                    $(forms).ajaxSubmit({
+                        url : form.attr('action'),
+                        dataType : 'json',
+                        beforeSubmit : function(arr, $form, options) {
+                            formloading = true;
+                        },
+                        success : function(data, statusText, xhr, $form) {
+                            formloading = false;
+                            if (data.status == 1) {
+                                window.location.href = '/member/index';
+                            } else {
+                                layer.msg(data.msg);
+                            }
+                        }
+                    });
+                }
+            })
+        })(jQuery);
+    </script>
+<!-- Javascript -->
+<script src="LoginRegist/assets/js/jquery-1.11.1.min.js"></script>
+<script src="LoginRegist/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="LoginRegist/assets/js/jquery.backstretch.min.js"></script>
+<script src="LoginRegist/assets/js/scripts.js"></script>
+<script src="LoginRegist/assets/js/login.js"></script>
+
+<!--[if lt IE 10]>
+<script src="assets/js/placeholder.js"></script>
+<![endif]-->
+
+</body>
+
+</html>
