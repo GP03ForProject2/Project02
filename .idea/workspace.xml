@@ -2,248 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a016db1c-25e5-4acd-9b23-c15d622d1266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/Project02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/css/form-elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/ico/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/img/backgrounds/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/regist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/hotdeal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/product09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/shop01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/shop02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/shop03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/jquery.zoom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/regist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/css/form-elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/ico/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/img/backgrounds/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qst/project02/Project02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/project02.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qst/project02/Project02Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qst/project02/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qst/project02/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qst/project02/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/css/form-elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/ico/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/img/backgrounds/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/img/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/jquery-1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/regist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/LoginRegist/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/hotdeal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/product09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/shop01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/shop02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/img/shop03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/regist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/main/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/main/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/main/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qst/project02/Project02ApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/store.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,13 +136,37 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="F:/Personal/实训/实训资料/Demo/shop-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\project02\src\main\resources\templates\main" />
+      <recent name="D:\IdeaProjects\project02\src\main\resources\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\project02\src\main\resources\templates" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Project02Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qst.project02.Project02Application" />
+      <module name="project02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qst.project02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Project02Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -318,21 +191,64 @@
       <option name="presentableId" value="Default" />
       <updated>1575890211150</updated>
     </task>
+    <task id="LOCAL-00001" summary="基本框架">
+      <created>1576053145313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576053145313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基本框架">
+      <created>1576216636311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576216636311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本框架" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="936" y="293" key="FileChooserDialogImpl" timestamp="1576052889531">
+    <state x="692" y="144" key="CommitChangelistDialog2" timestamp="1576216634781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="936" y="293" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576052889531" />
+    <state x="692" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576216634781" />
+    <state x="936" y="293" key="FileChooserDialogImpl" timestamp="1576216772442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="936" y="293" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576216772442" />
     <state x="1027" y="442" width="273" height="219" key="Github.ShareDialog" timestamp="1576052639758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1027" y="442" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576052639758" />
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576053055305">
+    <state width="1489" height="256" key="GridCell.Tab.0.bottom" timestamp="1576072779147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576053055305" />
+    <state width="1489" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576072779147" />
+    <state width="1489" height="256" key="GridCell.Tab.0.center" timestamp="1576072779147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1489" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576072779147" />
+    <state width="1489" height="256" key="GridCell.Tab.0.left" timestamp="1576072779147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1489" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576072779147" />
+    <state width="1489" height="256" key="GridCell.Tab.0.right" timestamp="1576072779147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1489" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576072779147" />
+    <state x="922" y="312" key="SettingsEditor" timestamp="1576218941089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="312" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576218941089" />
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576219913685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576219913685" />
     <state x="949" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576053096108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

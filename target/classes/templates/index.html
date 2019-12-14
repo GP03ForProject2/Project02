@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>电子产品购物商城</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +021-11-11-11</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> 如皋市人才公寓 </a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="login.html"><i class="fa fa-user-o"></i> 我的帐号</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">所有类别</option>
+									</select>
+									<input class="input" placeholder="搜寻商品">
+									<button class="search-btn">搜索</button>
+								</form>
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Wishlist -->
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>你的购物清单</span>
+<!--										<div class="qty">2</div>-->
+									</a>
+								</div>
+								<!-- /Wishlist -->
+
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>你的购物车</span>
+<!--										<div class="qty">3</div>-->
+									</a>
+<!--									<div class="cart-dropdown">-->
+<!--										<div class="cart-list">-->
+<!--											<div class="product-widget">-->
+<!--												<div class="product-img">-->
+<!--													<img src="./img/product01.png" alt="">-->
+<!--												</div>-->
+<!--												<div class="product-body">-->
+<!--													<h3 class="product-name"><a href="#">product name goes here</a></h3>-->
+<!--													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>-->
+<!--												</div>-->
+<!--												<button class="delete"><i class="fa fa-close"></i></button>-->
+<!--											</div>-->
+
+<!--											<div class="product-widget">-->
+<!--												<div class="product-img">-->
+<!--													<img src="./img/product02.png" alt="">-->
+<!--												</div>-->
+<!--												<div class="product-body">-->
+<!--													<h3 class="product-name"><a href="#">product name goes here</a></h3>-->
+<!--													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>-->
+<!--												</div>-->
+<!--												<button class="delete"><i class="fa fa-close"></i></button>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="cart-btns">-->
+<!--											<a href="#">查看购物车</a>-->
+<!--											<a href="#">支付<i class="fa fa-arrow-circle-right"></i></a>-->
+<!--										</div>-->
+<!--									</div>-->
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="#">首页</a></li>
+						<li><a href="https://diannao.jd.com/">电脑办公</a></li>
+						<li><a href="http://audio.jd.com/">影音娱乐</a></li>
+						<li><a href="https://yingxiang.jd.com/">摄影摄像</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop01.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>笔记本电脑<br></h3>
+								<a href="#" class="cta-btn">点击查看<i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop03.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>耳机<br></h3>
+								<a href="#" class="cta-btn">点击查看<i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop02.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>相机<br></h3>
+								<a href="https://www.bilibili.com/v/life/food#/" class="cta-btn">点击查看<i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="section-title">
+							<h3 class="title">新产品</h3>
+						</div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Products tab & slick -->
+					<div class="col-md-12">
+						<div class="row">
+							<div class="products-tabs">
+								<!-- tab -->
+								<div id="tab1" class="tab-pane active">
+									<div class="products-slick" data-nav="#slick-nav-1">
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product01.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">惠普光影精灵5 plus</a></h3>
+												<h4 class="product-price">$6199.00</h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product02.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">森海塞尔 MOMENTUM 3 Wireless蓝牙耳机无线大馒头3代</a></h3>
+												<h4 class="product-price">2598.00 </h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product03.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">戴尔DELL游匣G3</a></h3>
+												<h4 class="product-price">7799.00 </h4>
+												<div class="product-rating">
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product04.png" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">华为平板MatePad Pro 10.8英寸全面屏平板</a></h3>
+												<h4 class="product-price">$3200.00 </h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product05.png" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">森海塞尔 HD650 开放式头戴HiFi耳机</a></h3>
+												<h4 class="product-price">$2695.00</h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+									</div>
+									<div id="slick-nav-1" class="products-slick-nav"></div>
+								</div>
+								<!-- /tab -->
+							</div>
+						</div>
+					</div>
+					<!-- Products tab & slick -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- HOT DEAL SECTION -->
+		<div id="hot-deal" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="hot-deal">
+							<h2 class="text-uppercase">本周特价</h2>
+							<p>新系列最高减50％</p>
+							<a class="primary-btn cta-btn" href="https://www.bilibili.com/v/life/food#/" href="#">立即购买</a>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /HOT DEAL SECTION -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="section-title">
+							<h3 class="title">限时优惠</h3>
+							<div class="section-nav">
+							</div>
+						</div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Products tab & slick -->
+					<div class="col-md-12">
+						<div class="row">
+							<div class="products-tabs">
+								<!-- tab -->
+								<div id="tab2" class="tab-pane fade in active">
+									<div class="products-slick" data-nav="#slick-nav-2">
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product06.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">机械革命 Z2 Air 15.6英寸72%高色域设计轻薄游戏笔记本电脑</a></h3>
+												<h4 class="product-price">$6689.00 <del class="product-old-price">$7669.00</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product07.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">华为P40 曲屏5G手机</a></h3>
+												<h4 class="product-price">$9999.00 <del class="product-old-price">$12999.00</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product08.png" alt="">
+												<div class="product-label">
+												</div>
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">惠普暗夜精灵</a></h3>
+												<h4 class="product-price">$6000.00 <del class="product-old-price">$6299.00</del></h4>
+												<div class="product-rating">
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product09.png" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">索尼数码摄影机</a></h3>
+												<h4 class="product-price">$6000.00 <del class="product-old-price">$6699.00</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product01.png" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">联想拯救者Y7000P 2019英特尔酷睿i7</a></h3>
+												<h4 class="product-price">$8299.00 <del class="product-old-price">$9999.00</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">快速查看</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>加入购物车</button>
+											</div>
+										</div>
+										<!-- /product -->
+									</div>
+									<div id="slick-nav-2" class="products-slick-nav"></div>
+								</div>
+								<!-- /tab -->
+							</div>
+						</div>
+					</div>
+					<!-- /Products tab & slick -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
