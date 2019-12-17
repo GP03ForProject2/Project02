@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a016db1c-25e5-4acd-9b23-c15d622d1266" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/test/Log4jLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/regist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,20 @@
       <recent name="D:\IdeaProjects\project02\src\main\resources\templates\LoginRegist\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Log4jLog">
+    <configuration name="Log4jLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qst.project02.test.Log4jLog" />
+      <module name="project02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qst.project02.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Project02Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qst.project02.Project02Application" />
       <module name="project02" />
@@ -78,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Log4jLog" />
         <item itemvalue="Application.Project02Application" />
       </list>
     </recent_temporary>
@@ -147,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576581560423</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2019/12/17修改 -- 登陆注册底层代码完成">
+      <created>1576587103405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576587103405</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2019/12/17修改 -- 登陆注册底层代码完成">
+      <created>1576587121633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576587121634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,10 +201,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576565588645" />
-    <state x="692" y="144" key="CommitChangelistDialog2" timestamp="1576587102556">
+    <state x="692" y="144" key="CommitChangelistDialog2" timestamp="1576587120670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576587102556" />
+    <state x="692" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576587120670" />
     <state x="278" y="118" key="DiffContextDialog" timestamp="1576581521317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,22 +217,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1027" y="442" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576052639758" />
-    <state width="1823" height="261" key="GridCell.Tab.0.bottom" timestamp="1576580308150">
+    <state width="1823" height="261" key="GridCell.Tab.0.bottom" timestamp="1576589536058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1823" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576580308150" />
-    <state width="1823" height="261" key="GridCell.Tab.0.center" timestamp="1576580308150">
+    <state width="1823" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576589536058" />
+    <state width="1823" height="261" key="GridCell.Tab.0.center" timestamp="1576589536058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1823" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576580308150" />
-    <state width="1823" height="261" key="GridCell.Tab.0.left" timestamp="1576580308150">
+    <state width="1823" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576589536058" />
+    <state width="1823" height="261" key="GridCell.Tab.0.left" timestamp="1576589536058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1823" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576580308150" />
-    <state width="1823" height="261" key="GridCell.Tab.0.right" timestamp="1576580308150">
+    <state width="1823" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576589536058" />
+    <state width="1823" height="261" key="GridCell.Tab.0.right" timestamp="1576589536058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1823" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576580308150" />
+    <state width="1823" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576589536058" />
     <state width="1823" height="341" key="GridCell.Tab.1.bottom" timestamp="1576574522114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="312" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576218941089" />
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576581562549">
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576587123989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576581562549" />
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576587123989" />
     <state x="949" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576551281830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
