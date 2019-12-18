@@ -70,7 +70,7 @@
                             <div class="errorText" id="error_box"><br></div>
                             <!--<button onclick="fnLogin()"  class="btn">登录</button>-->
                             <div class="#">
-                                <button class="btn">登录</button>
+                                <button class="btn" id="btn_login">登录</button>
                             </div>
                             <br>
                             <a href="regist.html" style="color: #FFFFFF">
@@ -100,7 +100,7 @@
 </body>
 <script type="text/javascript">
 
-    $("#btn").click(function(){
+    $("#btn_login").click(function(){
         var username=$("#username").val();
         var password=$("#password").val();
         console.log(username);
