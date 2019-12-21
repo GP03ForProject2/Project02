@@ -6,9 +6,12 @@ import org.apache.logging.log4j.Logger;
 public class Log4jLog {
     public static void main(String[] args) {
         Logger logger = LogManager.getLogger(Log4jLog.class);
-        logger.debug("Debug Level");
-        logger.info("Info Level");
-        logger.warn("Warn Level");
-        logger.error("Error Level");
+        //logger.debug("Debug Level");
+        logger.info("注册|用户名|年龄|职业|注册时间");
+        logger.info("登陆|用户名|年龄|职业|登陆时间");
+        logger.info("加入订单|用户名|年龄|职业|商品名称|商品价格");
+        logger.info("购买|用户名|年龄|职业|商品名称|商品价格|真实姓名|城市|电话号码");
+       // logger.warn("Warn Level");
+        //logger.error("Error Level");
     }
 }

@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
-    <Appenders>
-        <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS}|%msg%n"/>
-        </Console>
-    </Appenders>
-    <Loggers>
-        <Root level="info">
-            <AppenderRef ref="Console"/>
-        </Root>
-    </Loggers>
-</Configuration>
+<configuration status="WARN">
+    <appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <patternLayout charset="UTF-8" pattern="%d{yyyy-MM-dd HH:mm:ss}|%msg%n"/>
+        </console>
+
+        <Flume name="FlumeInfo" compress="false" type="avro" ignoreExceptions="false">
+            <Agent host="virhost00" port="44444"/>
+            <!--输出方式为json-->
+            <!--<JSONLayout/>-->
+            <patternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}|%msg%n"/>
+        </Flume>
+    </appenders>
+
+    <loggers>
+        <!--过滤掉spring和mybatis的一些无用的DEBUG信息-->
+        <logger name="org.springframework" level="error"/>
+        <logger name="org.mybatis" level="error"/>
+        <root level="info">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="FlumeInfo"/>
+        </root>
+    </loggers>
+</configuration>

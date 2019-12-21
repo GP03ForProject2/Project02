@@ -462,7 +462,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder01()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder01()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -500,7 +502,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder02()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder02()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -532,7 +536,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder03()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder03()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -564,7 +570,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder04()"><i class="fa fa-shopping-cart"></i>添加到购物车</button>
+                                <button class="add-to-cart-btn" onclick="toOrder04()"><i
+                                        class="fa fa-shopping-cart"></i>添加到购物车
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -596,7 +604,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder05()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder05()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -631,7 +641,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder06()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder06()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -668,7 +680,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder07()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder07()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -698,7 +712,9 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder08()"><i class="fa fa-shopping-cart"></i>立即购买</button>
+                                <button class="add-to-cart-btn" onclick="toOrder08()"><i
+                                        class="fa fa-shopping-cart"></i>立即购买
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -730,7 +746,8 @@
                                 </div>
                             </div>
                             <div class="add-to-cart">
-                                <button class="add-to-cart-btn" onclick="toOrder09()"><i class="fa fa-shopping-cart"></i>
+                                <button class="add-to-cart-btn" onclick="toOrder09()"><i
+                                        class="fa fa-shopping-cart"></i>
                                     立即购买
                                 </button>
                             </div>
@@ -906,50 +923,169 @@
 <script src="../js/main.js"></script>
 <script language="JavaScript">
 		function toOrder01(){
-        	var price = document.getElementById("product-price01").innerText;
+        	var priceArray = document.getElementById("product-price01").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name01").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
 		function toOrder02(){
-        	var price = document.getElementById("product-price02").innerText;
+        	var priceArray = document.getElementById("product-price02").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name02").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
-        }
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
+         }
 		function toOrder03(){
-        	var price = document.getElementById("product-price03").innerText;
+        	var priceArray = document.getElementById("product-price03").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name03").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
-        }
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
+         }
 		function toOrder04(){
-        	var price = document.getElementById("product-price04").innerText;
+        	var priceArray = document.getElementById("product-price04").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name04").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
 		function toOrder05(){
-        	var price = document.getElementById("product-price05").innerText;
+        	var priceArray = document.getElementById("product-price05").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name05").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
 		function toOrder06(){
-        	var price = document.getElementById("product-price06").innerText;
+        	var priceArray = document.getElementById("product-price06").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name06").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
-        }
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
+         }
 		function toOrder07(){
-        	var price = document.getElementById("product-price07").innerText;
+        	var priceArray = document.getElementById("product-price07").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name07").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
 		function toOrder08(){
-        	var price = document.getElementById("product-price08").innerText;
+        	var priceArray = document.getElementById("product-price08").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name08").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
 		function toOrder09(){
-        	var price = document.getElementById("product-price09").innerText;
+        	var priceArray = document.getElementById("product-price09").innerText;
+        	var price = priceArray.split(" ")[0];
         	var pname = document.getElementById("product-name09").innerText;
-        	location.href = "checkout.html?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+        	$.ajax({
+               url:"http://localhost:8090/order?pname="+pname+"&price="+price,
+               type:'POST',
+               contentType:'application/json',
+               data:{pname:pname,price:price},
+               success: function (result) {
+                   location.href = "toOrder?"+"price="+encodeURI(price)+"&name="+encodeURI(pname)
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
         }
+
+
 
 </script>
 </body>

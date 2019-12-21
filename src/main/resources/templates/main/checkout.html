@@ -220,28 +220,25 @@
                         <h3 class="title">邮寄地址</h3>
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="first-name" placeholder="姓">
+                        <input class="input" type="text" name="real-name" placeholder="真实姓名" id="real-name">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="last-name" placeholder="名">
+                        <input class="input" type="email" name="email" placeholder="邮箱" id="email">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="email" name="email" placeholder="邮箱">
+                        <input class="input" type="text" name="address" placeholder="地址" id="address">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="address" placeholder="地址">
+                        <input class="input" type="text" name="province" placeholder="省份" id="province">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="city" placeholder="城市">
+                        <input class="input" type="text" name="country" placeholder="国家" id="country">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="country" placeholder="国家">
+                        <input class="input" type="text" name="zip-code" placeholder="邮编" id="zip-code">
                     </div>
                     <div class="form-group">
-                        <input class="input" type="text" name="zip-code" placeholder="邮编">
-                    </div>
-                    <div class="form-group">
-                        <input class="input" type="tel" name="tel" placeholder="电话号码">
+                        <input class="input" type="tel" name="tel" placeholder="电话号码" id="tel">
                     </div>
                     <div class="form-group">
                         <div class="input-checkbox">
@@ -318,7 +315,7 @@
                         <div><strong>产品</strong></div>
                         <div><strong>合计</strong></div>
                     </div>
-                    <div class="order-products" >
+                    <div class="order-products">
                         <div class="order-col">
                             <div id="order-product">1x Product Name Goes Here</div>
                             <div id="order-price">$980.00</div>
@@ -375,7 +372,7 @@
                         我已阅读并接受<a href="#">什么什么什么条款</a>
                     </label>
                 </div>
-                <a href="#" class="primary-btn order-submit">提交订单</a>
+                <a href="#" class="primary-btn order-submit" onclick="confirmOrder()">提交订单</a>
             </div>
             <!-- /Order Details -->
         </div>
@@ -548,12 +545,31 @@
     //页面初始化时调用GetRequest方法，获取url中的值
 	var request = GetRequest()
 	var name = request['name'];
-	var priceArray = request['price'].split(" ");
-	var price = priceArray[0]
+	var price = request['price'];
 	//设置页面中指定元素的值
     document.getElementById("order-price").innerHTML=price
     document.getElementById("order-product").innerHTML=name
     document.getElementById("order-price-total").innerHTML=price
+
+    function confirmOrder(){
+        var realname = document.getElementById("real-name").value;
+        var province = document.getElementById("province").value;
+        var tel = document.getElementById("tel").value;
+        $.ajax({
+               url:"http://localhost:8090/cfmorder?name="+name+"&price="+price+"&realname="+realname+"&province="+province+"&tel="+tel,
+               type:'POST',
+               contentType:'application/json',
+               data:{name:name,price:price},
+               success: function (result) {
+                   alert("提交成功")
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   console.log('XMLHttpRequest:');
+                   console.log(XMLHttpRequest);
+               }
+            });
+    }
+
 
 
 </script>
