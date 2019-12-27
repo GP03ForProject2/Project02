@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 import java.io.IOException;
+import java.util.Random;
 
 @Controller
 @RequestMapping("/")
@@ -114,7 +115,6 @@ public class LoginController {
         logger.info("注册|" + user.getUsername() + "|" + user.getAge() + "|" + user.getJob());
         return result;
     }
-
     /**
      * 跳转到订单页面的接口
      * 接收前端传回的商品信息，从session中获取登陆用户名
@@ -141,7 +141,12 @@ public class LoginController {
         ModelAndView mav = new ModelAndView();
         String username = (String) session.getAttribute("user");
         mav.setViewName("main/store");
-        logger.info("购买成功|" + username + "|" + name + "|" + price + "|" + realname + "|" + province + "|" + tel);
+        logger.info("下单成功|" + username + "|" + name + "|" + price + "|" + realname + "|" + province + "|" + tel);
+        Random r = new Random();
+        int ran = r.nextInt(3);
+        if(ran == 1){
+            logger.info("支付成功|" + username + "|" + name + "|" + price + "|" + realname + "|" + province + "|" + tel);
+        }
         return mav;
     }
 

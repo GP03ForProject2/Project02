@@ -1,45 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a016db1c-25e5-4acd-9b23-c15d622d1266" name="Default Changelist" comment="2019/12/17修改 -- 后端添加log4j2模块">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" beforeDir="false" />
+    <list default="true" id="a016db1c-25e5-4acd-9b23-c15d622d1266" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qst/project02/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qst/project02/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/service/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qst/project02/test/Log4jLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qst/project02/test/Log4jLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LoginMappering.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LoginMappering.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/css/form-elements.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/css/form-elements.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/js/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/js/regist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/LoginAssets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/LoginRegist/assets/regist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main/store.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +13,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project02" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +52,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/project02-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -226,14 +194,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576675742468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2019/12/21修改 -- 登陆、注册、点击、购买日志完成">
+      <created>1576920068355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576920068355</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本框架" />
     <MESSAGE value="2019/12/17修改 -- 登陆注册底层代码完成" />
     <MESSAGE value="2019/12/17修改 -- 后端添加log4j2模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/12/17修改 -- 后端添加log4j2模块" />
+    <MESSAGE value="2019/12/21修改 -- 登陆、注册、点击、购买日志完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/21修改 -- 登陆、注册、点击、购买日志完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576919425051">
@@ -252,38 +228,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="476" width="943" height="346" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576737378633" />
-    <state x="692" y="144" key="CommitChangelistDialog2" timestamp="1576895203102">
+    <state x="692" y="144" key="CommitChangelistDialog2" timestamp="1576920064894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576895203102" />
+    <state x="692" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576920064894" />
     <state x="278" y="118" key="DiffContextDialog" timestamp="1576581521317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="118" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576581521317" />
-    <state x="936" y="293" key="FileChooserDialogImpl" timestamp="1576899058159">
+    <state x="936" y="293" key="FileChooserDialogImpl" timestamp="1577363204964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="936" y="293" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576899058159" />
+    <state x="936" y="293" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577363204964" />
     <state x="1027" y="442" width="273" height="219" key="Github.ShareDialog" timestamp="1576052639758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1027" y="442" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576052639758" />
-    <state width="1485" height="190" key="GridCell.Tab.0.bottom" timestamp="1576919906530">
+    <state width="1485" height="156" key="GridCell.Tab.0.bottom" timestamp="1577280366716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576919906530" />
-    <state width="1485" height="190" key="GridCell.Tab.0.center" timestamp="1576919906530">
+    <state width="1485" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577280366716" />
+    <state width="1485" height="156" key="GridCell.Tab.0.center" timestamp="1577280366716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576919906530" />
-    <state width="1485" height="190" key="GridCell.Tab.0.left" timestamp="1576919906530">
+    <state width="1485" height="156" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577280366716" />
+    <state width="1485" height="156" key="GridCell.Tab.0.left" timestamp="1577280366716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576919906530" />
-    <state width="1485" height="190" key="GridCell.Tab.0.right" timestamp="1576919906530">
+    <state width="1485" height="156" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577280366716" />
+    <state width="1485" height="156" key="GridCell.Tab.0.right" timestamp="1577280366716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1485" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576919906530" />
+    <state width="1485" height="156" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577280366716" />
     <state width="1823" height="341" key="GridCell.Tab.1.bottom" timestamp="1576591077794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,25 +288,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="312" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576218941089" />
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576675744122">
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2" timestamp="1576920070846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576675744122" />
+    <state x="748" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576920070846" />
     <state x="949" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576551281830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="949" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576551281830" />
+    <state x="595" y="233" width="1166" height="863" key="dock-window-1" timestamp="1577064216839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="233" width="1166" height="863" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1577064216839" />
     <state x="618" y="311" key="git4idea.merge.GitPullDialog" timestamp="1576560805841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576560805841" />
-    <state x="622" y="230" key="new project wizard" timestamp="1576751684511">
+    <state x="401" y="185" key="new project wizard" timestamp="1577063872221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="230" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576751684511" />
-    <state x="686" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1576737281636">
+    <state x="401" y="185" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577063872221" />
+    <state x="686" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1577003032636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576737281636" />
+    <state x="686" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577003032636" />
   </component>
 </project>
